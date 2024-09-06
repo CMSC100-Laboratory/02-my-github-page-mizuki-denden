@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Alcantara's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png">
+    </div>
+    <div>
+      <a class="navbar" href="#projects">Projects</a>          
+      <a class="navbar" href="#skills">Skills</a>
+      <a class="navbar" href="#about">Autobiography</a>
+  </div>
+</header>
+
+    <section class="featured-photo">
+        <div class="container">
+            <img src="featured_photo.jpg">
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Previous Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                    <h3>Digital Friend Slambook</h3>
+                    <p>This Digital SlamBook is a mobile application that allows users to create a personalized profile and get to know friends easily. 
+                      Users can add friends by scanning a QR code, edit friend details, and update their own profile information. 
+                      It also lets them upload an image for their friend and profile photo.
+                      The app features a signin and signup verification to have distinguishable user accounts. This app uses firebase and firestore to save the information
+                      that has been input on each profile.
+                      </p>
+                </div>
+                <div class="project">
+                    <h3>Profile Page Creation</h3>
+                    <p>This project involves creating a simple profile page of a favorite character.  The page has a header with an “Add Bio” button (non-functional), 
+                      an engagement counter to display the number of posts, and clickable tabs for Posts, Reels, Saved, and Tagged. 
+                      The posts section displays a minimum of 4 posts initially, with a grid layout having 3 posts per block. 
+                      A floating action button is also included to be able to add a new post. 
+                      The design focuses on abstraction and proper componentization of widgets for maintainability and scalability.</p>
+                </div>
+                <div class="project">
+                    <h3>Add and Delete a Contact</h3>
+                    <p>In this project, the flutter_contacts package was used to implement Add and Delete features in a Contacts app. 
+                      The contact form lets the user input a first name and phone number, while the last name and email address are optional fields. 
+                      Additionally, users can upload a profile picture, which will be displayed in the app.
+                      Any changes made in the app, such as adding or deleting contacts, is reflected in the phone's native contacts app and vice versa. 
+                      For implementation, follow the documentation for the flutter_contacts package to handle these functionalities properly. 
+                      The code focuses on abstraction and widget componentization.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-and-bio">
+      <div id="skills" class="skills">
+          <h2>Skills</h2>
+            <div class="skills-div">
+              <p class="skill-title">Critical Thinking: </p>
+              <p>Evaluating problems and solutions with a discerning perspective, questioning assumptions, and considering alternative approaches. </p>
+            </div>
+
+            <div class="skills-div">
+              <p class="skill-title">Problem Solving: </p>
+              <p> Analytical thinking and applying logic to solve complex computational problems. </p>
+            </div>
+
+            <div class="skills-div">
+              <p class="skill-title">Learning Agility: </p>
+              <p>Quickly acquiring new knowledge and skills in response to evolving technology and industry trends. </p>
+            </div>
+      </div>
+
+      <div id="about" class="autobiography">
+          <h2>Autobiography</h2>
+          <p>   
+            I am Denisse Jennievive B. Alcantara, a dedicated graduating Computer Science student with a foundation and practical experience in the field.
+            Through my studies, I have developed a solid understanding of programming languages, data structures, algorithms, and software development practices.
+
+            I have hands-on experience in building and maintaining various software applications, from web and mobile apps to complex systems. 
+            My technical skills are complemented by my ability to solve problems creatively, manage projects effectively, and communicate complex ideas clearly. 
+            I am committed to applying my knowledge and skills to contribute to innovative solutions and make a meaningful impact in the world of technology. 
+            With a passion for creating better technologies, I am eager to apply my skills in real-world projects and contribute to innovative tech solutions. 
+            Ready to step into the professional world, I am focused on continuous learning and making a meaningful impact in the field.
+          </p>
+      </div>
+  </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <img src="logo.png">
+            </div>
+            <address>
+                Taguig City, Metro Manila, Philippines
+            </address>
+            <div class="copyright">
+                &copy; 2024 Alcantara. All rights reserved.
+            </div>
+            <a href="#top" class="back-to-top">Back to top</a>
+        </div>
+    </footer>
+</body>
+</html>
